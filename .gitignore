@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Model files
+*.pt
+*.pth
+
+# MediaPipe models
+*.task
+
+# Logs
+*.log
