@@ -6,9 +6,9 @@ A collection of computer vision games and simulations powered by MediaPipe hand 
 
 | File | Description |
 |------|-------------|
-| `chopsticks_game.py` | The classic finger-counting game Chopsticks, played against a PPO-trained neural network AI. Attack by hovering your finger over the bot's hands, split by showing different finger counts. |
-| `sph_water_sim.py` | Real-time SPH (Smoothed Particle Hydrodynamics) water simulation inside a hand-controlled cube. Tilt and twist one hand to rotate the cube, use two hands to resize it. |
-| `asl_recognition.py` | American Sign Language letter recognition. Detects static ASL signs (A, B, D, E, F, I, L, U, V, W) in real time. |
+| `chopsticks_game.py` | Chopsticks game, played against a PPO-trained neural network AI. Attack by hovering your finger over the bot's hands, split by showing different finger counts. |
+| `sph_water_sim.py` | Balls inside a Cube. Tilt and twist one hand to rotate the cube, use two hands to resize it. |
+| `asl_recognition.py` | American Sign Language letter recognition. Detects ASL signs (A, B, D, E, F, I, L, U, V, W) in real time. |
 | `rock_paper_scissors.py` | Play Rock-Paper-Scissors against the computer using hand gestures. Press 's' to start a countdown, then show your move. |
 
 ## Setup
@@ -69,7 +69,7 @@ python rock_paper_scissors.py   # Rock-Paper-Scissors
 
 ### Controls
 
-All games use `q` to quit. The water sim also supports `ESC`.
+All games use `q` to quit. 
 
 **Chopsticks:** Hover your index finger over the bot's hand boxes (hold 1 sec to attack). Show different finger counts on each hand to split.
 
@@ -88,6 +88,4 @@ All games use `q` to quit. The water sim also supports `ESC`.
 - torch (for Chopsticks AI only)
 - numpy
 
-## License
 
-MIT
